@@ -13,6 +13,7 @@ namespace Tyuiu.VdovichenkoAI.Sprint1.Task6.V1.Lib
     {
         public string SymbolCode(string value)
         {
+            // :(
             byte[] x = Encoding.ASCII.GetBytes(value);
             return Convert.ToBase64String(x);
         }

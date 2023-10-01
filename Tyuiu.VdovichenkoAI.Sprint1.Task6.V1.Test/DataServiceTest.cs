@@ -11,8 +11,8 @@ namespace Tyuiu.VdovichenkoAI.Sprint1.Task6.V1.Test
         [TestMethod]
         public void ValidString()
         {
-            string value = "1";
             int z = 49;
+            string value = "1";
             DataService ds = new DataService();
             string res = ds.SymbolCode(value);
             Assert.AreEqual(z, res);
