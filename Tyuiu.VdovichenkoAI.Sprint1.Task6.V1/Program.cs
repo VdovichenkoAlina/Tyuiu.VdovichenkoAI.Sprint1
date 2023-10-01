@@ -33,8 +33,12 @@ namespace Tyuiu.VdovichenkoAI.Sprint1.Task6.V1
             Console.WriteLine("Введите символ и нажмите <Enter>.");
 
             Console.WriteLine("Для завершения введите точку.");
-            Console.WriteLine("-> ");
             string value = Console.ReadLine();
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine(("Ответ: " + ds.SymbolCode(value)));
+            Console.ReadKey();
 
         }
     }
