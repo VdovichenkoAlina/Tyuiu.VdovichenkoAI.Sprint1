@@ -35,9 +35,9 @@ namespace Tyuiu.VdovichenkoAI.Sprint1.Task4.V8
             Console.WriteLine("        3 + |x|                                                            ");
             Console.WriteLine("                                                                           ");
             int x, y;
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Введите значение x:");
             x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите значение Y:");
+            Console.WriteLine("Введите значение y:");
             y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
